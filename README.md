@@ -8,7 +8,7 @@
 </p>
 
 <h2> Introduction </h2>
-The Forest Keeper is a game made on Unity 2020.3.15f2. This project has been made in a week by the following group :
+The Forest Keeper is a game made on Unity 2020.3.15f2 at ISART DIGITAL. This project has been made in a week by the following group :
 
 <h3> Designers </h3>
 <div class= name>
@@ -75,3 +75,9 @@ You play the forest keeper, a tiny spirit, and your job is to manage your forest
 <img src= "Images/Fire.png"/>
 </p>
 
+<h2>Personal work</h2>
+
+<h3>Self generating forest</h3>
+
+<p>I have worked on the forest generation system : my goal was to create a forest which will seems natural and will grow by itself. 
+    So i made this self replicating tree. Each tree can create a forest by duplicating itself until there is no more space aroud him. The tree can only breed in a certain radius and if there is a certain amount of trees in this radius, it can't breed anymore. You could tell yourself that it will expend for ever but each tree has a lifetime and die at the end and when all the old trees die, the forest in occupied at reconquering the terrain it has lost. Thanks to that system, the forest grows in a seemingly natural and pretty way.</p>
